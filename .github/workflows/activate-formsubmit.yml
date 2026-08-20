@@ -1,0 +1,21 @@
+name: Activate UnitDispatch form backend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/activate-formsubmit.yml'
+
+jobs:
+  activate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send one-time activation test
+        run: |
+          curl --fail-with-body --silent --show-error \
+            -X POST 'https://formsubmit.co/ajax/victorzonzon.work@gmail.com' \
+            -H 'Content-Type: application/json' \
+            -H 'Accept: application/json' \
+            -H 'Origin: https://unitdispatch.vercel.app' \
+            -e 'https://unitdispatch.vercel.app/' \
+            --data '{"name":"UnitDispatch System Test","company":"UnitDispatch","email":"victorzonzon.work@gmail.com","phone":"+1 469 825 4387","industry":"System test","monthly_call_volume":"Test","workflow":"One-time backend activation test from the UnitDispatch deployment.","consent":"yes","source":"UnitDispatch backend activation"}'
