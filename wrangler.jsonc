@@ -1,12 +1,35 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "unitdispatch-site",
-  "compatibility_date": "2026-05-23",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-20",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/",
+      "/ai-receptionist*",
+      "/ai-answering-service-for-contractors*",
+      "/after-hours-answering-service*",
+      "/hvac-ai-receptionist*",
+      "/plumbing-ai-receptionist*",
+      "/electrical-ai-receptionist*",
+      "/roofing-ai-receptionist*",
+      "/garage-door-ai-receptionist*",
+      "/guides*",
+      "/about*",
+      "/contact*",
+      "/robots.txt",
+      "/sitemap.xml",
+      "/llms.txt",
+      "/assets/unitdispatch-logo.svg",
+      "/seo-pages.css",
+      "/seo-pages.js"
+    ],
+    "html_handling": "auto-trailing-slash"
   },
   "compatibility_flags": [
     "nodejs_compat"

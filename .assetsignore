@@ -1,0 +1,7 @@
+worker.js
+seo-bundle-*.js
+seo-chunk-*.js
+wrangler.jsonc
+.git
+.gitignore
+.assetsignore

@@ -1,0 +1,14 @@
+# UnitDispatch
+
+UnitDispatch builds done-for-you AI receptionist systems for local service businesses in the United States. The service is designed to answer inbound calls, qualify leads, book appointments when appropriate, route urgent or special calls, cover after-hours demand, and preserve structured caller context for the business team.
+
+Primary service: https://unitdispatch.com/ai-receptionist/
+Contractor answering service: https://unitdispatch.com/ai-answering-service-for-contractors/
+After-hours answering: https://unitdispatch.com/after-hours-answering-service/
+Industries: HVAC, plumbing, electrical, roofing, garage doors, and other home service businesses.
+Guides: https://unitdispatch.com/guides/
+About: https://unitdispatch.com/about/
+Contact: https://unitdispatch.com/contact/
+Phone: +1 469 825 4387
+
+Canonical website: https://unitdispatch.com/
